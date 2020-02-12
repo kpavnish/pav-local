@@ -6,8 +6,6 @@ use Drupal\Core\Field\EntityReferenceFieldItemList;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\file_url\FileUrlHandler;
-use Symfony\Component\DependencyInjection\ContainerInterface;
-use Drupal\Core\Entity\EntityTypeManagerInterface;
 
 /**
  * Represents a configurable entity file URL field.
