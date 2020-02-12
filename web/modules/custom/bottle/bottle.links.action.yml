@@ -1,0 +1,5 @@
+bottle.bottle_add:
+    route_name: entity.content_entity_bottle.add_form
+    title: 'Add Bottle'
+    appears_on:
+        - entity.content_entity_bottle.collection

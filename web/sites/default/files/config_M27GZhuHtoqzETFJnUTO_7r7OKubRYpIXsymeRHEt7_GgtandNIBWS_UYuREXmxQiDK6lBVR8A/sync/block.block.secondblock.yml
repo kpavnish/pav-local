@@ -1,0 +1,26 @@
+uuid: a77a2fa7-3a2c-4076-b182-db1809357ccd
+langcode: en
+status: true
+dependencies:
+  module:
+    - second
+    - system
+  theme:
+    - bartik
+id: secondblock
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: second_block
+settings:
+  id: second_block
+  label: 'Second Block'
+  provider: second
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/1
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,52 @@
+entity.content_entity_bottle.canonical:
+    path: '/content_entity_bottle/{content_entity_bottle}'
+    defaults:
+        _entity_view: 'content_entity_bottle'
+        _title: 'Bottle Content'
+    requirements:
+        _entity_access: 'content_entity_bottle.view'
+        
+entity.content_entity_bottle.collection:
+    path: 'content_entity_bottle/list'
+    defaults:
+        _entity_list: 'content_entity_bottle'
+        _title: 'Bottle Content List'
+    requirements: 
+        _permission: 'view bottle entity'
+        
+entity.content_entity_bottle.add_form:
+    path: "content_entity_bottle/add"
+    defaults:
+        _entity_form: 'content_entity_bottle.add'
+        _title: 'Add Bottle'
+    requirements:
+        _entity_create_access: 'content_entity_bottle'
+  
+entity.content_entity_bottle.edit_form:
+    path: 'content_entity_bottle/{content_entity_bottle}/edit'
+    defaults:
+        _entity_form: 'content_entity_bottle.edit'
+        _title: 'Edit Bottle'
+    requirements:
+        _permission: 'edit bottle entity'
+        
+      #delete bottle custom entity
+entity.content_entity_bottle.delete_form:
+    path: 'content_entity_bottle/{content_entity_bottle}/delete'
+    defaults:
+        _entity_form: 'content_entity_bottle.delete'
+        _title: 'Delete Bottle'
+    requirements:
+        _entity_access: 'content_entity_bottle.delete'
+       
+manage_bottle.bottle_settings:
+  path: 'admin/structure/content_entity_manage_bottle_settings'
+  defaults:
+    _form: '\Drupal\bottle\Form\BottleSettingsForm'
+    _title: 'Bottle Settings'
+  requirements:
+    _permission: 'administer contact entity'
+        
+    
+        
+        

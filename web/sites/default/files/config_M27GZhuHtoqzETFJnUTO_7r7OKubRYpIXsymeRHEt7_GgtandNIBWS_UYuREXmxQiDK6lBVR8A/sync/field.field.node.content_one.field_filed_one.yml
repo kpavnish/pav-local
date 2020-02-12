@@ -1,0 +1,19 @@
+uuid: 8c76b789-f993-461f-a7c5-031e6fef07cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_filed_one
+    - node.type.content_one
+id: node.content_one.field_filed_one
+field_name: field_filed_one
+entity_type: node
+bundle: content_one
+label: 'Filed One'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

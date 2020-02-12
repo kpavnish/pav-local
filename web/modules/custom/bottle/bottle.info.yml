@@ -1,0 +1,5 @@
+name: bottle
+description: This is the custom entity type.
+type: module
+core: 8.x
+package: Custom

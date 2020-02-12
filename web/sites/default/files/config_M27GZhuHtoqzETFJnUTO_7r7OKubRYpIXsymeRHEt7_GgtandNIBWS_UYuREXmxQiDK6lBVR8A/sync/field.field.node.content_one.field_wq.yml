@@ -1,0 +1,19 @@
+uuid: ad688eeb-6cc1-43ab-8309-8a95237a9bee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wq
+    - node.type.content_one
+id: node.content_one.field_wq
+field_name: field_wq
+entity_type: node
+bundle: content_one
+label: wq
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

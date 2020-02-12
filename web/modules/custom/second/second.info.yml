@@ -1,0 +1,4 @@
+name: second
+type: module
+core: 8.x
+description: second test module

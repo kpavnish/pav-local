@@ -1,0 +1,21 @@
+uuid: 8efaf5e9-555c-4dc0-b55c-3ab175599371
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_aaj
+    - node.type.content_one
+  module:
+    - options
+id: node.content_one.field_aaj
+field_name: field_aaj
+entity_type: node
+bundle: content_one
+label: aaj
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

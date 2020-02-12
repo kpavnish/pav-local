@@ -1,0 +1,11 @@
+entity.content_entity_bottle.collection:
+    title: "Bottle Entity: List Bottle"
+    route_name: entity.content_entity_bottle.collection
+    discription: "List of Bottle"
+    weight: 100
+   
+content_entity_bottle.admin.structure.settings:
+  title: 'Bottle Settings'
+  description: 'Configure Bottle entity'
+  route_name:  manage_bottle.bottle_settings
+  parent: system.admin_structure

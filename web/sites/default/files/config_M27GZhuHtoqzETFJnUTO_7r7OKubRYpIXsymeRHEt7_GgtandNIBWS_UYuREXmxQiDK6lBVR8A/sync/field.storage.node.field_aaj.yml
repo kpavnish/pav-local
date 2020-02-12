@@ -1,0 +1,24 @@
+uuid: 3bd3d2da-97da-46b1-816a-3c383d54b042
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_aaj
+field_name: field_aaj
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: sa
+      label: sa
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
